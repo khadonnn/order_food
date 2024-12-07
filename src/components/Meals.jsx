@@ -8,7 +8,7 @@ const Meals = () => {
         data: loadMeals,
         isLoading,
         error,
-    } = useHttp("http://localhost:3000/meals", requestConfig, []);
+    } = useHttp("https://order-food-q02g.onrender.com/meals", requestConfig, []);
     if (isLoading) return <p className='center'>Loading...</p>;
     if (error) return <Error title='Fail to fetch meals' message={error} />;
     // if (!data) return <p>No meals</p>;
