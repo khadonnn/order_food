@@ -1,0 +1,12 @@
+.Toastify__toast {
+    position: relative;
+}
+
+.Toastify__toast .Toastify__progress-bar {
+    position: absolute;
+    top: 0; /* Set the progress bar to the top */
+    left: 0;
+    width: 100%;
+    height: 5px; /* Adjust height as needed */
+    transition: width 0.3s ease;
+}
